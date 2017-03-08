@@ -1,5 +1,7 @@
 $(document).ready(function () { // we must wait for the DOM to be ready as the browser can take a little while to read all of the HTML and build the elements
 	/*function used in several places to show slide info*/
+
+	alert("Hello world!");
 	var showInfo = function () {
 		$('.circle').addClass('hide_btn'); /*.circle so it closes all circles.*/
 		$('#X-close').addClass('btn_close_show');
